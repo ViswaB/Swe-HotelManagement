@@ -226,7 +226,7 @@ $hotels = mysqli_fetch_assoc(mysqli_query($conn,"SELECT count(hotelName) as tota
                 while ($row = mysqli_fetch_array($query)) {
                 ?>
                   <tr>
-                    <td><span class="fw-bold"><?php echo $row['ID']; ?></span></td>
+                    <td><span class="fw-bold"><?php echo $row['employeeID']; ?></span></td>
                     <td><span class="fw-normal"><?php echo $row['name']; ?></span></td>
                     <td><span class="fw-normal"><?php echo $row['email']; ?></span></td>
                     <td><span class="fw-normal"><?php echo $row['password']; ?></span></td>
